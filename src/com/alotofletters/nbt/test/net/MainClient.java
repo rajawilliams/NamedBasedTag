@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public class MainClient {
 
 	public static void main(String[] args) throws IOException {
-		NBTSocket socket = new NBTSocket("24.17.91.152", 27015);
+		NBTSocket socket = new NBTSocket("localhost", 27015);
 		BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
 		AtomicReference<String> line = new AtomicReference<>("");
 		AtomicBoolean interrupted = new AtomicBoolean(false);

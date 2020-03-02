@@ -1,2 +1,8 @@
 # Project exclude paths
 /out/
+/META-INF/
+/.idea/
+/run/
+/src/com/alotofletters/nbt/test/
+*.iml
+*.dat
